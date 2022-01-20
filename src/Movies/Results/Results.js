@@ -6,7 +6,6 @@ function Results(props) {
   if(props.str){
     const filtered = arr.filter((i)=> i.title == props.str);
     console.log(filtered);
-    if(filtered)
   }
     return (
         <>
